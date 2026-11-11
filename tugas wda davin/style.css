@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #8b0000, #ff4d4d);
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+.login-box {
+    width: 400px;
+    max-width: 100%;
+    margin: auto;
+
+    background-color: white;
+    padding: 35px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.login-box h1 {
+    text-align: center;
+    color: #b30000;
+    margin-bottom: 10px;
+}
+
+.login-box > p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 7px;
+    color: #333;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    margin-bottom: 18px;
+
+    font-size: 14px;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #d00000;
+    box-shadow: 0 0 5px rgba(208, 0, 0, 0.3);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+
+    background-color: #d00000;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a80000;
+}
+
+.daftar {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.daftar a {
+    color: #d00000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.daftar a:hover {
+    text-decoration: underline;
+}
